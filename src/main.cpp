@@ -19,6 +19,8 @@ int main(int argc, char *argv[])
     QApplication app(argc, argv);
     Ros_topic ros_topic;
     ros_topic.getRosInit(argc,argv);
+    ros_topic.update_thread();
+    
     QQmlApplicationEngine engine;
     const QUrl url(QStringLiteral("qrc:/qml/main.qml"));
     qmlRegisterType<Ros_topic>("Ros_topic", 1, 0, "Ros_topic");

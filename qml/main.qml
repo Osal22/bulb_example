@@ -44,6 +44,7 @@ ApplicationWindow{
             count++;
             status_toggle="on"
             ros_topic.get_count(count);
+            ros_topic.update_thread();
         }
         else
         {
