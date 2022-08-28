@@ -7,9 +7,9 @@ cmake ..
 
 # To run
 in parent directory 
-'''
+```
 roscore
 in second terminal
 cd devel/lib/bulb
 ./bulb
-'''
+```
