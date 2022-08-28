@@ -53,14 +53,15 @@ ApplicationWindow{
         }
     }
     Image{
-        source:"file:/home/huzaifa/_dev/Bulb/src/bulb/images/off.jpeg"
+        
+        source:"/images/off.jpeg"
         id:off_image 
         width:200
         height:200
         visible:true
     }
     Image{
-        source:"file:/home/huzaifa/_dev/Bulb/src/bulb/images/on.jpeg"
+        source:"/images/on.jpeg"
         id:on_image 
         width:200
         height:200

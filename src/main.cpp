@@ -23,6 +23,7 @@ int main(int argc, char *argv[])
     
     QQmlApplicationEngine engine;
     const QUrl url(QStringLiteral("qrc:/qml/main.qml"));
+    qDebug()<<url;
     qmlRegisterType<Ros_topic>("Ros_topic", 1, 0, "Ros_topic");
     QObject::connect(&engine, &QQmlApplicationEngine::objectCreated,
                    &app, [url](QObject *obj, const QUrl &objUrl)
