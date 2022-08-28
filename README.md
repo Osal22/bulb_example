@@ -13,6 +13,7 @@ sudo apt -y install qml-module-qtquick
 mkdir build
 cd build 
 cmake ..
+make
 ```
 
 # To run
