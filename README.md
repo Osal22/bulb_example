@@ -20,6 +20,6 @@ in parent directory
 ```
 roscore
 in second terminal
-cd devel/lib/bulb
+cd devel/lib/bulb/
 ./bulb
 ```
