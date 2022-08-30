@@ -768,6 +768,33 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/bulb.dir/build.make CMakeFiles/bulb.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/rec_bulb.o: src/rec_bulb.cpp.o
+
+.PHONY : src/rec_bulb.o
+
+# target to build an object file
+src/rec_bulb.cpp.o:
+	$(MAKE) -f CMakeFiles/bulb.dir/build.make CMakeFiles/bulb.dir/src/rec_bulb.cpp.o
+.PHONY : src/rec_bulb.cpp.o
+
+src/rec_bulb.i: src/rec_bulb.cpp.i
+
+.PHONY : src/rec_bulb.i
+
+# target to preprocess a source file
+src/rec_bulb.cpp.i:
+	$(MAKE) -f CMakeFiles/bulb.dir/build.make CMakeFiles/bulb.dir/src/rec_bulb.cpp.i
+.PHONY : src/rec_bulb.cpp.i
+
+src/rec_bulb.s: src/rec_bulb.cpp.s
+
+.PHONY : src/rec_bulb.s
+
+# target to generate assembly for a file
+src/rec_bulb.cpp.s:
+	$(MAKE) -f CMakeFiles/bulb.dir/build.make CMakeFiles/bulb.dir/src/rec_bulb.cpp.s
+.PHONY : src/rec_bulb.cpp.s
+
 src/ros_topic.o: src/ros_topic.cpp.o
 
 .PHONY : src/ros_topic.o
@@ -857,6 +884,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/rec_bulb.o"
+	@echo "... src/rec_bulb.i"
+	@echo "... src/rec_bulb.s"
 	@echo "... src/ros_topic.o"
 	@echo "... src/ros_topic.i"
 	@echo "... src/ros_topic.s"

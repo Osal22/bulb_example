@@ -63,6 +63,7 @@ include_directories(
 )
 add_executable(${PROJECT_NAME}  "src/main.cpp"
                                 "src/ros_topic.cpp"
+                                "src/rec_bulb.cpp"
                                 "qml.qrc"
                               )
 target_compile_definitions(${PROJECT_NAME} PRIVATE $<$<OR:$<CONFIG:Debug>,$<CONFIG:RelWithDebInfo>>:QT_QML_DEBUG>)

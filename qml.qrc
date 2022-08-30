@@ -3,5 +3,6 @@
         <file>qml/main.qml</file>
         <file>images/on.jpeg</file>
         <file>images/off.jpeg</file>
+        <file>qml/current_time.qml</file>
     </qresource>
 </RCC>
